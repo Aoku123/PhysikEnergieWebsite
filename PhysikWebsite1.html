@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energieumwandlung und Nachhaltigkeit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h1 {
+            color: #2c3e50;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: #2c3e50;
+        }
+        
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav li {
+            margin: 5px 15px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .name-input {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        
+        .name-input input {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="name-input">
+        <label for="name">Ihr Name:</label>
+        <input type="text" id="name" placeholder="Name eingeben">
+    </div>
+    
+    <header>
+        <h1>Energieumwandlung und Nachhaltigkeit</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#reversible">Reversible Vorgänge</a></li>
+            <li><a href="#entropie">Entropie</a></li>
+            <li><a href="#energietraeger">Energieträger</a></li>
+            <li><a href="#energiewende">Energiewende</a></li>
+            <li><a href="#energiebedarf">Persönlicher Bedarf</a></li>
+        </ul>
+    </nav>
+    
+    <section id="reversible">
+        <h2>Reversible und irreversible Vorgänge</h2>
+        <p>In der Physik unterscheiden wir zwischen reversiblen (umkehrbaren) und irreversiblen (nicht umkehrbaren) Prozessen.</p>
+        
+        <div class="card">
+            <h3>Reversible Vorgänge</h3>
+            <p>Idealisierte Prozesse, die ohne Energieverluste ablaufen und theoretisch in beide Richtungen verlaufen können.</p>
+            <p><strong>Beispiel:</strong> Reibungsfreie Pendelbewegung oder ideale elektrische Schwingkreise.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Irreversible Vorgänge</h3>
+            <p>Reale Prozesse, die mit Energieverlusten (meist als Wärme) verbunden sind und nicht spontan rückgängig gemacht werden können.</p>
+            <p><strong>Beispiel:</strong> Energieumwandlung in einem Kraftwerk oder das Vermischen von heißem und kaltem Wasser.</p>
+        </div>
+        
+        <h3>Beispiel: Elektromotor und Generator</h3>
+        <p>Elektromotor und Generator beruhen auf dem gleichen physikalischen Prinzip und unterscheiden sich eigentlich nur darin, dass die Energieumwandlung jeweils umgekehrt stattfindet.</p>
+        
+        <p>In der Praxis ist keine Energieumwandlung vollständig reversibel, da stets Verluste auftreten. Bei Elektroautos wird im Rekuperationsmodus der Elektromotor als Generator genutzt, um beim Bremsen Energie zurückzugewinnen. Allerdings beträgt der Wirkungsgrad dieser Umwandlung nur etwa 65-70%.</p>
+    </section>
+    
+    <section id="entropie">
+        <h2>Entropie und Energieentwertung</h2>
+        <p>Die Entropie (S) ist eine physikalische Größe, die die Energieentwertung bei irreversiblen Prozessen beschreibt. Sie ist eng mit dem zweiten Hauptsatz der Thermodynamik verbunden.</p>
+        
+        <div class="card">
+            <h3>Eigenschaften der Entropie</h3>
+            <ul>
+                <li>Jeder Körper bzw. jedes System enthält Entropie</li>
+                <li>Entropie kann zwischen Systemen übertragen werden, aber nur mit Wärme</li>
+                <li>Zusammenhang: T = Q/S (T = Temperatur, Q = Wärme, S = Entropie)</li>
+                <li>Entropie kann nicht vernichtet, aber produziert werden</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Entropie im Kraftwerk</h3>
+            <p>In einem Wärmekraftwerk wird möglichst wenig Entropie von der Brennkammer zur Turbine transportiert (hohe Temperatur) und möglichst viel Entropie mit wenig Energie zum Kühlturm abgeführt (niedrige Temperatur).</p>
+            <p>Der Wirkungsgrad η eines idealen Wärmekraftwerks beträgt: η = 1 - T<sub>kalt</sub>/T<sub>warm</sub></p>
+        </div>
+        
+        <h3>Beispielaufgabe: Kühlturm eines Kraftwerks</h3>
+        <p>Warum ist ein Kühlturm bei einem Wärmekraftwerk physikalisch notwendig?</p>
+        <div class="card">
+            <p><strong>Antwort:</strong> Der Kühlturm ist notwendig, um die bei der Energieumwandlung entstandene Entropie abzuführen. Da Entropie nicht vernichtet werden kann, muss sie mit Wärme an die Umgebung abgegeben werden. Ohne diese Abfuhr würde die Entropie im System immer weiter ansteigen, was den Wirkungsgrad weiter verringern würde.</p>
+            <p>Zudem gilt: Um Entropie abzuführen, muss ein Teil der zugeführten Energie als Wärme an die Umgebung abgegeben werden. Dies ist der Grund, warum der Wirkungsgrad eines Wärmekraftwerks niemals 100% erreichen kann.</p>
+        </div>
+    </section>
+    
+    <section id="energietraeger">
+        <h2>Energieträger und Energiequellen</h2>
+        <p>Energiequellen lassen sich in verschiedene Kategorien einteilen:</p>
+        
+        <div class="card">
+            <h3>Primärenergie</h3>
+            <p>Energie, die in der Natur vorkommt und noch nicht umgewandelt wurde (z.B. Kohle, Erdöl, Wind, Sonnenstrahlung).</p>
+        </div>
+        
+        <div class="card">
+            <h3>Sekundärenergie</h3>
+            <p>Energie, die durch Umwandlung aus Primärenergie gewonnen wird (z.B. Strom, Benzin, Fernwärme).</p>
+        </div>
+        
+        <div class="card">
+            <h3>Regenerative Energie</h3>
+            <p>Energie aus nachhaltigen Quellen, die sich kurzfristig erneuern (z.B. Sonne, Wind, Wasser, Biomasse).</p>
+        </div>
+        
+        <div class="card">
+            <h3>Nicht-regenerative Energie</h3>
+            <p>Energie aus endlichen Quellen, die sich nicht oder nur extrem langsam erneuern (z.B. Kohle, Erdöl, Erdgas, Uran).</p>
+        </div>
+        
+        <h3>Energiebedarf im internationalen Vergleich</h3>
+        <p>Der Energiebedarf pro Person und Tag variiert stark zwischen verschiedenen Ländern:</p>
+        <ul>
+            <li>Deutschland: 120 kWh/(d·p)</li>
+            <li>USA: 200 kWh/(d·p)</li>
+            <li>China: 80 kWh/(d·p)</li>
+            <li>EU-Durchschnitt: 100 kWh/(d·p)</li>
+            <li>Weltdurchschnitt: 60 kWh/(d·p)</li>
+        </ul>
+        
+        <h3>Blockheizkraftwerke (BHKW)</h3>
+        <p>Blockheizkraftwerke nutzen das Prinzip der Kraft-Wärme-Kopplung, bei dem gleichzeitig Strom und Wärme erzeugt werden. Dadurch können Gesamtwirkungsgrade von über 90% erreicht werden.</p>
+    </section>
+    
+    <section id="energiewende">
+        <h2>Energiewende und nachhaltige Lösungen</h2>
+        <p>Die Energiewende beschreibt den Übergang von nicht-regenerativen zu regenerativen Energiequellen, um den Klimawandel zu bekämpfen.</p>
+        
+        <h3>Beispiel: Wildpoldsried - Das Energiedorf</h3>
+        <p>Wildpoldsried in Bayern ist ein Vorreiter der Energiewende. Das Dorf produziert mehr als 500% seines Energiebedarfs aus erneuerbaren Quellen:</p>
+        <ul>
+            <li>11 Windkraftanlagen</li>
+            <li>Biogasanlagen</li>
+            <li>Photovoltaikanlagen</li>
+            <li>Wasserkraft</li>
+            <li>Holzheizwerk</li>
+        </ul>
+        
+        <div class="card">
+            <h3>Vorteile der dezentralen Energieversorgung</h3>
+            <ul>
+                <li>Unabhängigkeit von Energieimporten</li>
+                <li>Geringere Übertragungsverluste</li>
+                <li>Förderung regionaler Wirtschaft</li>
+                <li>Höhere Akzeptanz in der Bevölkerung</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Herausforderungen</h3>
+            <ul>
+                <li>Schwankende Energieerzeugung</li>
+                <li>Notwendigkeit von Speichertechnologien</li>
+                <li>Hohe Anfangsinvestitionen</li>
+                <li>Flächenbedarf</li>
+            </ul>
+        </div>
+        
+        <h3>Internationaler Vergleich der Energiewende</h3>
+        <p>Anteil erneuerbarer Energien in verschiedenen Ländern:</p>
+        <ul>
+            <li>Deutschland: 42%</li>
+            <li>Dänemark: 60%</li>
+            <li>Schweden: 55%</li>
+            <li>Frankreich: 20%</li>
+            <li>USA: 20%</li>
+            <li>China: 30%</li>
+        </ul>
+    </section>
+    
+    <section id="energiebedarf">
+        <h2>Persönlicher Energiebedarf</h2>
+        <p>Jeder von uns verbraucht täglich Energie - bewusst und unbewusst. Der durchschnittliche Energiebedarf in Deutschland beträgt etwa 120 kWh pro Person und Tag.</p>
+        
+        <h3>Energiespartipps</h3>
+        <div class="card">
+            <h4>Elektrische Geräte</h4>
+            <ul>
+                <li>Standby-Modus vermeiden</li>
+                <li>Ladegeräte nach Gebrauch ausstecken</li>
+                <li>Energiesparende Geräte (A+++) bevorzugen</li>
+                <li>Licht ausschalten, wenn nicht benötigt</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h4>Warmwasser</h4>
+            <ul>
+                <li>Duschen statt Baden</li>
+                <li>Sparduschkopf verwenden</li>
+                <li>Wasser beim Einseifen abstellen</li>
+                <li>Waschmaschine voll beladen</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h4>Mobilität</h4>
+            <ul>
+                <li>Öffentliche Verkehrsmittel nutzen</li>
+                <li>Fahrgemeinschaften bilden</li>
+                <li>Kurze Strecken zu Fuß oder mit dem Rad</li>
+                <li>Spritsparend fahren</li>
+            </ul>
+        </div>
+        
+        <h3>Beispielrechnung: Energiebedarf für ein Bad</h3>
+        <p>Ein Bad mit 150 Liter Wasser, das von 10°C auf 50°C erwärmt wird, benötigt:</p>
+        <p>Q = c<sub>w</sub> · m · ΔT = 4,2 kJ/(kg·K) · 150 kg · 40 K = 25.200 kJ = 7,0 kWh</p>
+        <p>Bei einem Bad pro Woche: 7,0 kWh / (7 Tage · 1 Person) = 1,0 kWh/(d·p)</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Energieumwandlung und Nachhaltigkeit</p>
+        <p><strong>Quellen:</strong> Physik Schulbuch, Statistisches Bundesamt, Umweltbundesamt, Internationale Energieagentur, Gemeinde Wildpoldsried</p>
+    </footer>
+
+    <script>
+        // Name input functionality
+        const nameInput = document.getElementById('name');
+        nameInput.addEventListener('change', function() {
+            document.querySelector('header h1').textContent = `Energieumwandlung und Nachhaltigkeit - ${this.value}`;
+        });
+    </script>
+</body>
+</html>
